@@ -54,7 +54,7 @@
             <input name="no1">
             <input name="no2">
             <input type="hidden" name="button" value="DIV">
-            <input type="submit" value="DIV">
+            <input type="submit" value="DIVa">
         </form>
     </body>
 </html>
