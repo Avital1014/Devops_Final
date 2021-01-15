@@ -1,0 +1,139 @@
+{
+  "id": "050c7182-ae73-433d-99fe-3204465b9dfc",
+  "version": "2.0",
+  "name": "FinalProjectAssertionTest",
+  "url": "http://localhost:8082",
+  "tests": [{
+    "id": "ed934977-fc94-42f1-af48-ac8669b4a94a",
+    "name": "check",
+    "commands": [{
+      "id": "4dff6b49-ae1c-420e-9f8a-0ec90d07a23e",
+      "comment": "",
+      "command": "open",
+      "target": "/AvitalEladDanielProject/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f029738e-4134-4fc3-b095-334e93a9bbb2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1573x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fd1e866-f915-4e76-b14b-48d2a0c9fc96",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(2) > input:nth-child(4)",
+      "targets": [
+        ["css=form:nth-child(2) > input:nth-child(4)", "css:finder"],
+        ["xpath=(//input[@value='ADD'])[2]", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d57668c-42dd-48f8-a7e4-40693d23aebf",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(3) > input:nth-child(4)",
+      "targets": [
+        ["css=form:nth-child(3) > input:nth-child(4)", "css:finder"],
+        ["xpath=(//input[@value='SUB'])[2]", "xpath:attributes"],
+        ["xpath=//form[2]/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fadc9cf3-4e4b-4b08-b816-f91777dbbe07",
+      "comment": "",
+      "command": "click",
+      "target": "name=no1",
+      "targets": [
+        ["name=no1", "name"],
+        ["css=form:nth-child(2) > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='no1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84fe9b32-95f7-456d-909e-a06b9cb510c5",
+      "comment": "",
+      "command": "type",
+      "target": "name=no1",
+      "targets": [
+        ["name=no1", "name"],
+        ["css=form:nth-child(2) > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='no1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "5d4c2dfd-a127-4809-aa1f-ffa366ddc6e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=no2",
+      "targets": [
+        ["name=no2", "name"],
+        ["css=form:nth-child(2) > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='no2']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e90b593b-6cdf-48df-809e-24f15e15f127",
+      "comment": "",
+      "command": "type",
+      "target": "name=no2",
+      "targets": [
+        ["name=no2", "name"],
+        ["css=form:nth-child(2) > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='no2']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "d789acd3-9a19-49fd-be9e-ba98ce0de14f",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(2) > input:nth-child(4)",
+      "targets": [
+        ["css=form:nth-child(2) > input:nth-child(4)", "css:finder"],
+        ["xpath=(//input[@value='ADD'])[2]", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6f05f1d-f8a2-4e5c-b54b-f331d3d73964",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Using Multiple Forms')]", "xpath:innerText"]
+      ],
+      "value": "Using Multiple Forms"
+    }, {
+      "id": "cdcb2a72-5fc6-42e0-9bd0-ca64c1802f4e",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "name=no1",
+      "targets": [
+        ["name=no1", "name"],
+        ["css=form:nth-child(4) > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='no1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "09b4abe8-b873-41b2-b60e-68a82dc321aa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ed934977-fc94-42f1-af48-ac8669b4a94a"]
+  }],
+  "urls": ["http://localhost:8082/"],
+  "plugins": []
+}
